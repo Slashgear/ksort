@@ -7,11 +7,11 @@ class InsertionSort : SortAlgorithm {
             var i = j - 1;
             val temp = arr[j];
             while ( (i >= 0) && (arr[i] > temp) ){
-                arr[i + 1] = arr[i];
-                i--;
+                arr[i + 1] = arr[i]
+                i--
             }
-            arr[i + 1] = temp;
+            arr[i + 1] = temp
         }
-        return arr;
+        return arr
     }
 }
