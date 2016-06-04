@@ -8,6 +8,7 @@ Ksort is a example of sorting algorithm implementation in Kotlin.
 
 List of implemented algorithm :
 
-* Bubble sort
+* [Bubble sort](https://github.com/Slashgear/ksort/master/src/main/kotlin/com/slashgear/BubbleSort.kt)
+* [Inserttion sort](https://github.com/Slashgear/ksort/master/src/main/kotlin/com/slashgear/InsertionSort.kt)
 
 Feel free to contribute.
