@@ -1,3 +1,3 @@
 package com.slashgear
 
-class InsertionSortTest:SortTest(InsertionSort())
+class InsertionSortTest : SortTest(InsertionSort())
