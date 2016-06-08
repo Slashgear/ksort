@@ -1,6 +1,6 @@
 package com.slashgear
 
-class MergeSort : SortAlgorithm {
+object MergeSort : SortAlgorithm {
 
     override fun <T : Comparable<T>> sort(arr: MutableList<T>): MutableList<T> {
         cut(arr, 0, arr.size - 1)

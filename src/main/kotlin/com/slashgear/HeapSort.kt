@@ -1,6 +1,7 @@
 package com.slashgear
 
-class HeapSort : SortAlgorithm {
+object HeapSort : SortAlgorithm {
+
     override fun <T : Comparable<T>> sort(arr: MutableList<T>): MutableList<T> {
         for (i in arr.size / 2 downTo 0) {
             sift(arr, i, arr.size - 1)

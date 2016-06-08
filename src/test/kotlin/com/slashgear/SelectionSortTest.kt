@@ -1,3 +1,3 @@
 package com.slashgear
 
-class SelectionSortTest : SortTest(SelectionSort())
+class SelectionSortTest : SortTest(SelectionSort)

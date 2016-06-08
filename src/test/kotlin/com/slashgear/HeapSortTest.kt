@@ -1,3 +1,3 @@
 package com.slashgear
 
-class HeapSortTest : SortTest(HeapSort())
+class HeapSortTest : SortTest(HeapSort)

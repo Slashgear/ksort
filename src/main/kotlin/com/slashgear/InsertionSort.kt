@@ -1,6 +1,6 @@
 package com.slashgear
 
-class InsertionSort : SortAlgorithm {
+object InsertionSort : SortAlgorithm {
 
     override fun <T : Comparable<T>> sort(arr: MutableList<T>): MutableList<T> {
         for (j in 1..arr.size - 1) {

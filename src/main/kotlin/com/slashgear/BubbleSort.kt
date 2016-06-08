@@ -1,6 +1,6 @@
 package com.slashgear
 
-class BubbleSort : SortAlgorithm {
+object BubbleSort : SortAlgorithm {
 
     override fun <T : Comparable<T>> sort(arr: MutableList<T>): MutableList<T> {
         var swappedElements: Boolean

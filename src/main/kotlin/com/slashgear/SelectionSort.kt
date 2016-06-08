@@ -1,6 +1,6 @@
 package com.slashgear
 
-class SelectionSort : SortAlgorithm {
+object SelectionSort : SortAlgorithm {
     override fun <T : Comparable<T>> sort(arr: MutableList<T>): MutableList<T> {
         for (unsortedPartFirstIndex in 0..arr.size - 1) {
             var minNumberIndex = unsortedPartFirstIndex;

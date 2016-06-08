@@ -1,3 +1,3 @@
 package com.slashgear
 
-class BubbleSortTest : SortTest(BubbleSort())
+class BubbleSortTest : SortTest(BubbleSort)

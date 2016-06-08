@@ -2,7 +2,7 @@ package com.slashgear.quicksort
 
 import com.slashgear.swap
 
-open class HoareSort : QuickSortAlgorithm() {
+object HoareSort : QuickSortAlgorithm() {
 
     override fun <T : Comparable<T>> callSortOnPartitions(arr: MutableList<T>, lo: Int, hi: Int, p: Int) {
         sort(arr, lo, p)

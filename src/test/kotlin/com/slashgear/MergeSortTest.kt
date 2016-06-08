@@ -1,3 +1,3 @@
 package com.slashgear
 
-class MergeSortTest : SortTest(MergeSort())
+class MergeSortTest : SortTest(MergeSort)

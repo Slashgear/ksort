@@ -7,7 +7,7 @@ abstract class SortTest(private val algorithm: SortAlgorithm) : LoadValues() {
 
     @Test
     fun sort() {
-        assertEquals(sortedValues, algorithm.sort(values))
+        assertEquals(sortedValues, values.ksort(algorithm))
     }
 
 }
